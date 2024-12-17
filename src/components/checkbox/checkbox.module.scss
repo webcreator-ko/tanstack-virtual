@@ -1,0 +1,36 @@
+.wrap {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    input {
+        display: block;
+        appearance: none;
+        -webkit-appearance: none;
+        width: 18px;
+        height: 18px;
+        border: 2px solid #807373;
+        border-radius: 4px;
+        margin: 0;
+        position: relative;
+        background-color: #fff;
+        flex-shrink: 0;
+        cursor: pointer;
+
+        &:checked {
+            background-color: #807373;
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 5px;
+                top: 1px;
+                width: 5px;
+                height: 10px;
+                border: solid #fff;
+                border-width: 0 2px 2px 0;
+                transform: rotate(45deg);
+            }
+        }
+    }
+}
