@@ -1,0 +1,17 @@
+
+.list {
+    border: 1px solid #e6e4dc;
+    max-width: 100%;
+}
+
+.listItemEven,
+.listItemOdd {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listItemEven {
+    background-color: #e6e4dc;
+}
+
