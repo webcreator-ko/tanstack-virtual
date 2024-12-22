@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useInfiniteQuery } from "@tanstack/react-query";
-import styles from "./infinite.module.scss";
+import styles from "./infiniteScroll.module.scss";
 import { useVirtualizer } from "@tanstack/react-virtual";
 
 async function fetchServerPage(
