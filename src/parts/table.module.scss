@@ -1,0 +1,13 @@
+.wrap {
+    margin-top: 40px;
+
+    .container {
+        height: 600px;
+        overflow: auto;
+        margin-top: 40px;
+
+        table {
+            width: 100%;
+        }
+    }
+}

@@ -119,6 +119,7 @@ const InfiniteScroll = () => {
 
  return (
   <div>
+   <h2>Infinite Scroll</h2>
    <p>
     この無限スクロールの例では、React Query の useInfiniteScroll
     フックを使用して投稿エンドポイントから無限データを取得します。
